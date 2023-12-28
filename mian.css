@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(jason-leung-gF3lxbfQe3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.main {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.mouse-c {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0.1s;
+}
+
+.mouse-d {
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    left: 0;
+    top: 0;
+
+}
